@@ -7,9 +7,7 @@
   <body style="margin: 0px; overflow: hidden">
     <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
         <a-marker preset="hiro">
-        <a-box position="0 0.5 0" material="color: green"></a-box>
-        <a-cylinder position="2 0.5 0" material="color: black"></a-cylinder>
-        <a-ring position="-2 0.5 0" material="color: yellow"></a-ring>
+        <a-entity gltf-model="kasane_teto.glb" position="0 0 0" scale="0.5 0.5 0.5" rotation="-90 0 0"></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
